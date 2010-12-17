@@ -1,3 +1,6 @@
+# copy .rvmrc.sample to .rvmrc to locally configure rvm
+.rvmrc
+
 # rcov generated
 coverage
 
@@ -30,13 +33,13 @@ pkg
 #.DS_Store
 #
 # For TextMate
-#*.tmproj
-#tmtags
+*.tmproj
+tmtags
 #
 # For emacs:
-#*~
-#\#*
-#.\#*
+*~
+\#*
+.\#*
 #
 # For vim:
-#*.swp
+*.swp
