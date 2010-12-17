@@ -1,4 +1,5 @@
 require 'bundler'
+require 'ruby-debug'
 begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
@@ -9,5 +10,4 @@ end
 
 $LOAD_PATH.unshift(File.dirname(__FILE__) + '/../../lib')
 require 'rjmocker'
-
 require 'rspec/expectations'
