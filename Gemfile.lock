@@ -44,5 +44,5 @@ DEPENDENCIES
   cucumber
   jeweler (~> 1.5.1)
   rcov
-  rspec (~> 2.1.0)
+  rspec
   ruby-debug
